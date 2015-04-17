@@ -6,6 +6,8 @@
   <packaging>pom</packaging>
   <modules>
   	<module>arsenal-algorithm</module>
+  	<module>antelope-web</module>
+  	<module>arsenal-common</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
