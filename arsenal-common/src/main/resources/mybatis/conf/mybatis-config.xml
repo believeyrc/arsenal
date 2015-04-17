@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- 设置类别名 -->
+	<typeAliases>
+
+	</typeAliases>
+
+	<plugins>
+		<!-- 分页插件 -->
+		<plugin interceptor="com.github.believeyrc.arsenal.common.pagination.PageInterceptor">
+			<property name="pageMapperId" value=".*PageList.*" />
+			<property name="pageDatabaseType" value="mysql" />
+		</plugin>
+	</plugins>
+
+</configuration>
